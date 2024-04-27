@@ -1,6 +1,7 @@
 // backend/src/index.ts
 
-import express, { Request, Response } from 'express';
+const express = require('express');
+import { Request, Response } from 'express';
 
 const app = express();
 const PORT = process.env.PORT || 3000;
